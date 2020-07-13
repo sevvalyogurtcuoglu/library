@@ -1,0 +1,22 @@
+create table book(
+isbn varchar(50) primary key,
+bookNmae varchar(50),
+bookAuthor varchar(50),
+broadcostDate varchar(50),
+placeoftheBook varchar(50),
+theAmount varchar(50)
+
+);
+
+INSERT INTO book (isbn, bookNmae, bookAuthor,broadcostDate,placeoftheBook,theAmount) 
+VALUES ('156','simyacı','Paulo Coelho','2008','P2','3')
+INSERT INTO book (isbn, bookNmae, bookAuthor,broadcostDate,placeoftheBook,theAmount) 
+VALUES ('157','Dijital Kale','Dan Brown','2017','D4','2')
+INSERT INTO book (isbn, bookNmae, bookAuthor,broadcostDate,placeoftheBook,theAmount) 
+VALUES ('158','Son Ada','Zülfü Livaneli','2015','Z1','1')
+INSERT INTO book (isbn, bookNmae, bookAuthor,broadcostDate,placeoftheBook,theAmount) 
+VALUES ('159','Aşk ve Gurur','Jane Austen','2007','A2','5')
+INSERT INTO book (isbn, bookNmae, bookAuthor,broadcostDate,placeoftheBook,theAmount) 
+VALUES ('160','Olasılıksız','Adam Fawer','2010','A3','2')
+INSERT INTO book (isbn, bookNmae, bookAuthor,broadcostDate,placeoftheBook,theAmount) 
+VALUES ('161','Santranç','Stefan Zweig','2016','S4','3');
